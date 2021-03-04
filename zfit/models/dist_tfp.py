@@ -170,7 +170,7 @@ class Gauss(WrapDistribution):
 
     def __init__(self, mu: ztyping.ParamTypeInput, sigma: ztyping.ParamTypeInput, obs: ztyping.ObsTypeInput,
                  name: str = "Gauss"):
-        """Gaussian or Normal distribution with a mean (mu) and a standartdeviation (sigma).
+        """Gaussian or Normal distribution with a mean (mu) and a standard deviation (sigma).
 
         The gaussian shape is defined as
 
